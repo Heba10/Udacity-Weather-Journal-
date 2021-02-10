@@ -1,5 +1,5 @@
 body{
-    background: #fffff8;
+    background: #f23557;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -8,20 +8,30 @@ body{
     grid-auto-rows: minmax(150px, auto);
     /* grid-template-columns:  */
     height:100vh;
-    background: #f23557;
+    /* background: #f23557; */
     color: #f0d43a;
     justify-content: center;
     grid-gap: 1em;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 .holder{
+    text-align: center;
+   
 
 }
 
 .entry{
+    
+    
     background: rgba(59, 74, 107, .4);
+    display:block;
+    font-size: 27px;
+    text-align: center;
+    height: 60px;
+    width: 320px;
 }
 
 #entryHolder{
@@ -41,6 +51,8 @@ body{
 }
 
 .headline {
+    margin-top: 2rem;
+    font-size: 5rem;
 
 }
 .title{
@@ -51,6 +63,7 @@ body{
 label{
     display:block;
     font-size: 27px;
+    text-align: center;
 }
 
 input{
@@ -62,6 +75,11 @@ input{
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     border: none;
+    text-align: center;
+    margin-left: 30rem;
+    
+    
+
 }
 
 button{
@@ -73,9 +91,11 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    text-align: center;
 }
 h1{
     font-size: 36px;
+    text-align: center;
 }
 
 textarea{
@@ -83,11 +103,15 @@ textarea{
     color: #f0d43a;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-left: 25rem;
+    
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,
 select:focus,
 textarea:focus,
+
 button:focus {
     outline: none;
 }
